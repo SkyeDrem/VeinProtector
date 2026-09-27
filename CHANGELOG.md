@@ -5,6 +5,7 @@
 ### 调整
 
 - README 增加中文和英文的设置界面与参考速率详情面板示意图。
+- 将 README 中的示意图链接更新为项目 GitHub Raw 地址。
 - 将英文参考速率详情标签统一为 “Protected-State Reference Rate”，与 Reference Rate 术语保持一致。
 - 将发布版本更新至 0.5.0。
 

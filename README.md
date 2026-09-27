@@ -11,7 +11,7 @@
 ## 设置
 进入 **设置 → 游戏 → 矿脉保护** 即可启用或禁用，默认开启。切换后立即生效，不需要重启游戏或重新载入存档。
 
-![中文设置界面示意图](image/设置中文.png)
+![中文设置界面示意图](https://raw.githubusercontent.com/SkyeDrem/VeinProtector/main/image/%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87.png)
 
 ## 矿物利用等级与零消耗行为
 Mod不直接判断科技等级，而是读取游戏当前实际的矿物资源消耗率。
@@ -25,7 +25,7 @@ Mod不直接判断科技等级，而是读取游戏当前实际的矿物资源�
 保护状态参考速率是排除受保护矿点产能后的区域理论最高产值，该信息可帮助玩家在资源消耗率降为零之前规划生产。
 当保护开关关闭或资源消耗率为零时，详情扩展会隐藏，恢复原版布局。
 
-![中文参考速率详情面板示意图](image/参考面板中文.png)
+![中文参考速率详情面板示意图](https://raw.githubusercontent.com/SkyeDrem/VeinProtector/main/image/%E5%8F%82%E8%80%83%E9%9D%A2%E6%9D%BF%E4%B8%AD%E6%96%87.png)
 
 ## 适用范围
 Mod只处理普通有限固体矿脉。原油等其它非有限固体矿脉的生产逻辑保持原版。
@@ -70,7 +70,7 @@ A vein protection mod for *Dyson Sphere Program*. When an individual vein node h
 
 Go to **Settings → Game → Vein Protection** to enable or disable the mod. It is enabled by default. Changes take effect immediately and do not require restarting the game or reloading the save.
 
-![English settings interface](image/设置英文.png)
+![English settings interface](https://raw.githubusercontent.com/SkyeDrem/VeinProtector/main/image/%E8%AE%BE%E7%BD%AE%E8%8B%B1%E6%96%87.png)
 
 ## Veins Utilization Level and Zero-Consumption Behavior
 
@@ -91,7 +91,7 @@ The Protected-State Reference Rate represents the theoretical maximum production
 
 When vein protection is disabled or the resource-consumption rate reaches zero, the additional details are hidden and the vanilla layout is restored.
 
-![English Reference Rate details](image/参考面板英文.png)
+![English Reference Rate details](https://raw.githubusercontent.com/SkyeDrem/VeinProtector/main/image/%E5%8F%82%E8%80%83%E9%9D%A2%E6%9D%BF%E8%8B%B1%E6%96%87.png)
 
 ## Scope
 
