@@ -21,8 +21,8 @@ Write-Output 'SettingsGameRowPlacementAndHeightSourceCheckPassed=True'
 $pluginSource = Get-Content -LiteralPath (Join-Path $projectRoot 'src\VeinProtector\Plugin.cs') -Raw
 $manifestData = Get-Content -LiteralPath (Join-Path $projectRoot 'thunderstore\manifest.json') -Raw | ConvertFrom-Json
 $assemblyVersion = [Reflection.AssemblyName]::GetAssemblyName($plugin).Version.ToString()
-if (($pluginSource -notmatch 'PluginVersion = "0\.5\.0"') -or ($assemblyVersion -ne '0.5.0.0') -or ($manifestData.version_number -ne '0.5.0')) {
-    throw "Plugin, assembly, and manifest versions must all match release 0.5.0."
+if (($pluginSource -notmatch 'PluginVersion = "0\.5\.1"') -or ($assemblyVersion -ne '0.5.1.0') -or ($manifestData.version_number -ne '0.5.1')) {
+    throw "Plugin, assembly, and manifest versions must all match release 0.5.1."
 }
 if ((([regex]::Matches($pluginSource, 'Config\.Bind\(')).Count -ne 1) -or
     ($pluginSource -notmatch 'Logger\.LogInfo\("Version = " \+ PluginVersion\)') -or

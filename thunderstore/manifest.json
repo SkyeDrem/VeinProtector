@@ -1,8 +1,8 @@
 {
   "name": "VeinProtector",
-  "version_number": "0.5.0",
+  "version_number": "0.5.1",
   "website_url": "",
-  "description": "Protects ordinary solid veins at one remaining unit and adds read-only details to vanilla reference-speed tooltips.",
+  "description": "矿点矿物数量为1时停止采集该矿点 Stops mining an individual vein node when its remaining resource amount reaches 1",
   "dependencies": [
     "xiaoye97-BepInEx-5.4.17"
   ]
