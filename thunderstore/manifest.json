@@ -1,0 +1,9 @@
+{
+  "name": "VeinProtector",
+  "version_number": "0.5.0",
+  "website_url": "",
+  "description": "Protects ordinary solid veins at one remaining unit and adds read-only details to vanilla reference-speed tooltips.",
+  "dependencies": [
+    "xiaoye97-BepInEx-5.4.17"
+  ]
+}
